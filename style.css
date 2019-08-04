@@ -1,4 +1,5 @@
 /* Général */
+
 body{
 	background: #181818;
 	font-family: 'Lato', helvetica, arial, sans-serif; 
@@ -11,21 +12,23 @@ body{
 	margin: 30px auto;
 }
 
-#contactDetails{
-	float:right;
-	
-}
-
 .mainDetails {
 	padding: 5px 35px;
 	border-bottom: 2px solid #cf8a05;
 	background: #ededed;
 }
 
+li
+{
+list-style:none;
+}
+
 /* Header */
 
-
-
+#contactDetails{
+	float:right;
+	
+}
 
 #photo {
 	width: 20.5%;
@@ -39,21 +42,13 @@ body{
 	
 }
 
-li
-{
-list-style:none;
-}
+
 
 /* main */
 
 .sectionTitle  {
 	font-style: italic;
-	font-size: 1.5em;
 	color: #cf8a05;
-}
-
-
-.sectionTitle {
 	font-size: 1.25rem;
 }
 
@@ -62,7 +57,7 @@ list-style:none;
 }
 
 
-/* footer */
+
 
 
 
